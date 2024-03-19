@@ -1,0 +1,82 @@
+header {
+  background-color: #c85c8e;
+  padding: 5px;
+}
+
+.Introduction {
+  background-color: #ffbaba;
+  margin: 5px;
+}
+
+.skills > ul {
+  list-style-type: none;
+}
+
+.skills > ul > li {
+  border: 1px solid #999;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.contact {
+  background-color: #c1867b;
+  padding: 1.5rem;
+}
+/* for mobile phone */
+@media screen and (min-width: 320px) {
+  header {
+    padding: 10px;
+  }
+
+  .Introduction {
+    margin: 10px;
+  }
+
+  .skills > ul > li {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .contact {
+    padding: 2rem;
+  }
+}
+
+/* Media query for Tablet */
+@media screen and (min-width: 641px) {
+  header {
+    padding: 10px;
+  }
+
+  .Introduction {
+    margin: 10px;
+  }
+
+  .skills > ul > li {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .contact {
+    padding: 2rem;
+  }
+}
+/* Media query for Desktop screen */
+@media screen and (min-width: 1025px) {
+  header {
+    padding: 15px;
+  }
+
+  .Introduction {
+    margin: 15px;
+  }
+
+  .skills > ul > li {
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  .contact {
+    padding: 3rem;
+  }
+}
